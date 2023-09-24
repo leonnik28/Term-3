@@ -18,30 +18,7 @@ void menu() {
         switch (choice)
         {
         case 1: {
-            String stringFirst;
-            stringFirst.input();
-            String stringSecond;
-            stringSecond.input();
-            std::cout << "Operation: + ";
-            String result = stringFirst + stringSecond;
-            result.print();
-
-            std::cout << "Enter the index to display: ";
-            int index;
-            while (!(std::cin >> index) || (index < 0 && index >= result.lengths())) {
-                std::cout << "Invalid input. Please enter again: " << std::endl;
-                std::cin.clear();
-                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            }
-            std::cout << "Character at position " << index << " " << stringFirst[index] << std::endl;
-
-            std::cout << "Enter the start: ";
-            int start, end;
-            std::cin >> start;
-            std::cout << "Enter the end: ";
-            std::cin >> end;
-            result(start, end).print();
-
+            WorkStringClass();
             break;
         }
         case 2: {
@@ -52,6 +29,33 @@ void menu() {
             break;
         }
     }
+}
+
+void WorkStringClass() {
+    String stringFirst;
+    stringFirst.input();
+    String stringSecond;
+    stringSecond.input();
+    std::cout << "Operation: + ";
+    String result = stringFirst + stringSecond;
+    result.print();
+
+    std::cout << "Enter the index to display: ";
+    int index;
+    while (!(std::cin >> index) || (index < 0 && index >= result.lengths())) {
+        std::cout << "Invalid input. Please enter again: " << std::endl;
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    }
+    std::cout << "Character at position " << index << " " << stringFirst[index] << std::endl;
+
+    std::cout << "Enter the start: ";
+    int start, end;
+    std::cin >> start;
+    std::cout << "Enter the end: ";
+    std::cin >> end;
+    result(start, end).print();
+
 }
 
 void WorkMainClass() {
