@@ -14,6 +14,7 @@ public:
     TwoDimensionalArray operator+(const TwoDimensionalArray& other);
     void ArrayCreate();
     void print();
+    void print(int row, int col);
     void nullifyRowAndColumnWithMinElement();
     void swapFirstOddWithFirstElementInEachRow();
 };

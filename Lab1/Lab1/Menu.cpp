@@ -81,7 +81,7 @@ void WorkMainClass() {
     arraySecond.ArrayCreate();
 
     TwoDimensionalArray resultFirst = arrayFirst & arraySecond;
-    resultFirst.print();
+    resultFirst.print(rows, cols);
 
     TwoDimensionalArray resultSecond = arrayFirst + arraySecond;
     resultSecond.print();

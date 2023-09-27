@@ -1,2 +1,7 @@
-﻿  Menu.cpp
+﻿  Main.cpp
+  Menu.cpp
+  Menu.h
+  MyClass.cpp
+  Создание кода...
+x64\Debug\Menu.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
   Lab1.vcxproj -> F:\Labs\Lab1\x64\Debug\Lab1.exe

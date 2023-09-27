@@ -67,6 +67,15 @@ void TwoDimensionalArray::print() {
     }
 }
 
+void TwoDimensionalArray::print(int row, int col) {
+    for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+            std::cout << array[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
+}
+
 void TwoDimensionalArray::nullifyRowAndColumnWithMinElement() {
     int minElement = array[0][0];
     int minElementRow = 0;
@@ -111,7 +120,6 @@ void TwoDimensionalArray::swapFirstOddWithFirstElementInEachRow() {
         }
     }
 }
-
 
 int CountRows() {
     std::cout << "Print count rows array:" << std::endl;
