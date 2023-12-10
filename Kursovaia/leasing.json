@@ -1,0 +1,20 @@
+{
+    "leasings": [
+        {
+            "bank": "Белинвест",
+            "money": "4444",
+            "percent": 1,
+            "preferential": false,
+            "reason": 2,
+            "time": 40
+        },
+        {
+            "bank": "Альфа",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "reason": 516,
+            "time": 0
+        }
+    ]
+}

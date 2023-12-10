@@ -1,0 +1,11 @@
+{
+    "installmentPlans": [
+        {
+            "bank": "Альфа",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        }
+    ]
+}

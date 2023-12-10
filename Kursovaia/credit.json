@@ -1,0 +1,151 @@
+{
+    "credits": [
+        {
+            "bank": "Альфа",
+            "money": "1000000",
+            "percent": 30,
+            "preferential": false,
+            "time": 40
+        },
+        {
+            "bank": "Альфа",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Альфа",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": false,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": true,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": true,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": true,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": true,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": true,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": true,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": true,
+            "time": 0
+        },
+        {
+            "bank": "Банк",
+            "money": "",
+            "percent": 0,
+            "preferential": true,
+            "time": 0
+        }
+    ]
+}

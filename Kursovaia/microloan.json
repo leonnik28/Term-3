@@ -1,0 +1,11 @@
+{
+    "microloans": [
+        {
+            "bank": "Альфа",
+            "latePaymentPenalty": 0,
+            "money": "",
+            "percent": 0,
+            "time": 0
+        }
+    ]
+}

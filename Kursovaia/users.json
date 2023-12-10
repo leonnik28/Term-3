@@ -1,0 +1,80 @@
+{
+    "0": {
+        "loans": [
+        ],
+        "password": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "type": 5
+    },
+    "1": {
+        "loans": [
+        ],
+        "password": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "type": 1
+    },
+    "null": {
+        "loans": [
+        ],
+        "password": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "type": 3
+    },
+    "pidor": {
+        "loans": [
+        ],
+        "password": "db8d4feddd02cd8b9f5e512bb933f044bcbd154ccb210493348dd8a2b25bcd56",
+        "type": 5
+    },
+    "w": {
+        "loans": [
+            {
+                "amount": "1000000",
+                "bank": "Альфа",
+                "endDate": "13.01.2024",
+                "percent": 30,
+                "startDate": "04.12.2023",
+                "type": "Кредит"
+            },
+            {
+                "amount": "4444",
+                "bank": "Белинвест",
+                "endDate": "13.01.2024",
+                "percent": 1,
+                "startDate": "04.12.2023",
+                "type": "Лизинг"
+            },
+            {
+                "amount": "1000000",
+                "bank": "Альфа",
+                "endDate": "13.01.2024",
+                "percent": 30,
+                "startDate": "04.12.2023",
+                "type": "Кредит"
+            },
+            {
+                "amount": "4444",
+                "bank": "Белинвест",
+                "endDate": "13.01.2024",
+                "percent": 1,
+                "startDate": "04.12.2023",
+                "type": "Лизинг"
+            },
+            {
+                "amount": "",
+                "bank": "Альфа",
+                "endDate": "04.12.2023",
+                "percent": 0,
+                "startDate": "04.12.2023",
+                "type": "Микрозайм"
+            },
+            {
+                "amount": "",
+                "bank": "Альфа",
+                "endDate": "04.12.2023",
+                "percent": 0,
+                "startDate": "04.12.2023",
+                "type": "Лизинг"
+            }
+        ],
+        "password": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326",
+        "type": 2
+    }
+}
