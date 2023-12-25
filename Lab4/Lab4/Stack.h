@@ -11,6 +11,22 @@ class Stack {
     int size;
 
 public:
+    class iterator {
+        Node* current;
+    public:
+        iterator(Node* node) : current(node) {}
+        iterator& operator++() {
+            current = current->next;
+            return *this;
+        }
+        bool operator!=(const iterator& other) const {
+            return current != other.current;
+        }
+        const T& operator*() const {
+            return current->data;
+        }
+    };
+
     Stack() : top(nullptr), size(0) {}
 
     ~Stack() {
@@ -70,4 +86,22 @@ public:
         }
         std::cout << std::endl;
     }
+
+    iterator begin() {
+        return iterator(top);
+    }
+
+    iterator end() {
+        return iterator(nullptr);
+    }
 };
+
+template<typename T>
+typename Stack<T>::iterator search(typename Stack<T>::iterator begin, typename Stack<T>::iterator end, T value) {
+    for (auto it = begin; it != end; ++it) {
+        if (*it == value) {
+            return it;
+        }
+    }
+    return end;
+}
